@@ -1,11 +1,11 @@
-package com.oskeny.domain.service;
+package com.oskeny.api.domain.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.oskeny.domain.exception.NegocioExcepition;
-import com.oskeny.domain.model.Cliente;
-import com.oskeny.domain.repository.ClienteRepository;
+import com.oskeny.api.domain.exception.NegocioExcepition;
+import com.oskeny.api.domain.model.Cliente;
+import com.oskeny.api.domain.repository.ClienteRepository;
 
 @Service
 public class ClienteService {

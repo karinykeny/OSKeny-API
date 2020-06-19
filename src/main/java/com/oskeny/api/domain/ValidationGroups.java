@@ -1,4 +1,4 @@
-package com.oskeny.domain;
+package com.oskeny.api.domain;
 
 public interface ValidationGroups {
 	

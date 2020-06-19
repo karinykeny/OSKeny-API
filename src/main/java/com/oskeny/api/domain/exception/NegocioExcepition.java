@@ -1,4 +1,4 @@
-package com.oskeny.domain.exception;
+package com.oskeny.api.domain.exception;
 
 public class NegocioExcepition extends RuntimeException{
 

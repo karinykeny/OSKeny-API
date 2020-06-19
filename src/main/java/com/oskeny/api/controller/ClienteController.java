@@ -1,4 +1,4 @@
-package com.oskeny.controller;
+package com.oskeny.api.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.oskeny.domain.model.Cliente;
-import com.oskeny.domain.repository.ClienteRepository;
-import com.oskeny.domain.service.ClienteService;
+import com.oskeny.api.domain.model.Cliente;
+import com.oskeny.api.domain.repository.ClienteRepository;
+import com.oskeny.api.domain.service.ClienteService;
 
 @RestController
 @RequestMapping("/clientes")

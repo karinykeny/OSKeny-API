@@ -1,4 +1,4 @@
-package com.oskeny.domain.model;
+package com.oskeny.api.domain.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,7 +9,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import com.oskeny.domain.ValidationGroups;
+import com.oskeny.api.domain.ValidationGroups;
 
 @Entity
 public class Cliente {

@@ -1,4 +1,4 @@
-package com.oskeny.exceptionhandler;
+package com.oskeny.api.exceptionhandler;
 
 import java.time.OffsetDateTime;
 import java.util.List;

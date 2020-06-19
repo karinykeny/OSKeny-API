@@ -1,4 +1,4 @@
-package com.oskeny.exceptionhandler;
+package com.oskeny.api.exceptionhandler;
 
 import java.time.OffsetDateTime;
 import java.util.ArrayList;
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.oskeny.domain.exception.NegocioExcepition;
-import com.oskeny.exceptionhandler.Problem.Campo;
+import com.oskeny.api.domain.exception.NegocioExcepition;
+import com.oskeny.api.exceptionhandler.Problem.Campo;
 
 @ControllerAdvice
 public class ApiExcepitionHandler extends ResponseEntityExceptionHandler {
